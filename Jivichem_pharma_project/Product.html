@@ -1,0 +1,188 @@
+<html>
+<head>
+<body>
+<style>
+.topright{
+  position:absolute;
+  top:25px;
+  left:850px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+  height:65px;
+  padding:2px 10px;
+}
+</style>
+
+<img class="logo" src="logoimg.jpeg">
+<div class="topright"><SIZE=4><A HREF="index.html" style="color:black; text-decoration:none"><b>Home</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A><A HREF="download.html" style="color:black; text-decoration:none"><b>Downloads</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A><A HREF="connect.html" style="color:black; text-decoration:none"><b>Connect</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</A><A HREF="Order.html" style="color:black; text-decoration:none"><b>Order</b></div>
+</head>
+<hr size="2" align="center" color="grey"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<br>
+<style>
+table {
+  table-align:center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid deepskyblue;
+  text-align: center;
+  padding: 3px;
+  font-size:13px;
+}
+
+tr:nth-child(even) {
+  background-color: PaleTurquoise;
+}
+table.center{
+  margin-left:auto;
+  margin-right:auto;
+</style>
+<font size="9" color="dimgrey"><b>Search Result:</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<align="right"><input id="myInput" type="text" size="35" placeholder="CAS No/Catalog no/Chemical name"></a>
+<br>
+<br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.btn {
+  background-color: MediumTurquoise;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: Blue;
+}
+</style>
+<button class="btn" style="width:100%"><i class="fa fa-download"></i><a href="C:\Users\DELL\Desktop\JIVICHEM\PRODUCT LIST JIVICHEM.xlsx" style="color:white; text-decoration:none">Export to Excel(20 Records)</a></button>
+<br>
+<br>
+
+<table class="center">
+  <thead>
+  <tr>
+    <th><font color="midnightblue">S. No.</font></th>
+    <th><font color="midnightblue">Name of the Product</font></th>
+    <th><font color="midnightblue">CAS Number</font></th>
+  </tr>
+  </thead>
+  <tbody id="myTable">
+  <tr>
+    <td>1</td>
+    <td>Ethyl isocyanoacetate</td>
+    <td>2999-46-4</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Boc-hydrazine</td>
+    <td>870-46-2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>6-Bromo-3-Methylpyridin-2-Amine</td>
+    <td>89466-16-0</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2-Cyano-3-fluoropyridine</td>
+    <td>97509-75-6</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>5-fluoro-2-benzofuran-1(3H)-one</td>
+    <td>700-85-6</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>(R)-4-N-Boc-2-Hydroxymethylpiperazine</td>
+    <td>278788-66-2</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>4-Pyridine aldehyde</td>
+    <td>872-85-5</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Pyridine-3-carboxaldehyde</td>
+    <td>500-22-1</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>3-Acetyl-6-chloropyridine</td>
+    <td>55676-22-7</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>R,R-Chiraphite</td>
+    <td>149646-83-3</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Methyl isocyanoacetate</td>
+    <td>39687-95-1</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>2-(Benzyloxy)ethanol</td>
+    <td>622-08-2</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>2,3-Diamino-5-bromopyridine</td>
+    <td>38875-53-5</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>2-tert-butylaniline</td>
+    <td>6310-21-0</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>7-Bromoquinoxaline-2(1H)-one</td>
+    <td>82031-32-1</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Ethynyltriisopropylsilane</td>
+    <td>89343-06-6</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>2-amino-5-bromo-4-chloropyridine</td>
+    <td>942947-94-6</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>4-Chloropyridin-2-amine</td>
+    <td>19798-80-2</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>4-Methylresorcinol</td>
+    <td>496-73-1</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>N-(3-Aminopropyl)diethanolamine</td>
+    <td>4985-85-7</td>
+  </tr>
+  </tbody>
+</table> 
+</body>
+</html>

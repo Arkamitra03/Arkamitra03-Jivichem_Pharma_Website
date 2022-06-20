@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  height: 100vh;
+}
+.container{
+  margin: 10px;
+}
+.navbar-style{
+  box-shadow: 0 5px 10px #efefef;
+}
+#nav-name a{
+  font-size: 18px;
+  color: #000000; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+  height: 65px;
+  padding: 2px 10px;
+}
+.body{
+  position: absolute;
+  top: 250px;
+  left: 13%;
+}
+.form-control{
+  border: 2pt solid black;
+}
+.mid-head{
+  box-shadow: #efefef;
+}
+.mid-head .btn{
+  height: 70px;
+  width: 300px;
+  border: 2pt solid green;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 25px;
+}
+.first-half{
+  background-image:url('background.jpg') ;
+  background-size: 100%;
+}
+.about{
+  position: absolute;
+  left: 45%;
+}
+.ab-card{
+  position: absolute;
+  top:800px;
+  left: 20%;
+  display: flex;
+}
+.card{
+  margin-left: 10px;
+  padding: 15px;
+}
+#founder{
+  border-right: 1pt solid black ;
+}
+
+
+.third-half{
+  position: absolute;
+  top: 1600px;
+  left: 12%;
+  margin-bottom: 15px;
+  background-color: #F7F7F7;
+}
+.product{
+  text-align: center;
+  font-size: 40px;
+}
+.main {
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  width: 45%;
+  float: left;
+  border-left: 2px solid grey;
+  padding-left: 2%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.item {
+  float: left;
+  width: 50%;
+}
+
+.item img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.item h4 {
+  padding-top: 18px;
+  padding-left: 50px;
+  font-size: 20px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .left,
+  .right {
+      width: 50%;
+  }
+  .item {
+      width: 100%;
+  }
+}
+
